@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  background: #000;
+  font-family: 'Inter', sans-serif;
+}
+
+canvas {
+  touch-action: none;
+}
+
+@keyframes gradient-xy {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+/* Enhanced text glow effect */
+.text-glow {
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.7),
+               0 0 30px rgba(255, 255, 255, 0.5),
+               0 0 40px rgba(255, 255, 255, 0.3);
+}
