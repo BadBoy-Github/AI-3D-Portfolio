@@ -28,7 +28,7 @@ function App() {
             <span className='font-extrabold'>Biotechnologist</span>
             <span className="mx-2 text-white">|</span>
             <Code className="inline-block text-white" />
-            <span className='font-extrabold'>Full Stack Developer</span>
+            <span className='font-extrabold'>Frontend Web Developer</span>
             <span className="mx-2 text-white">|</span>
 
           </div>
